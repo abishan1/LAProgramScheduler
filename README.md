@@ -1,1 +1,2 @@
 # LAProgramScheduler
+This project is a supplement program to a Google Form that allows Learning Assistants to schedule section times that work best for them. Using a list of preferred times, the program uses a greedy approach to schedule individuals with less preferred times, and work its way up to individuals with more preferred times so that overlapping times can be found. Once a section is scheduled, the time is removed from the everyone else's preferences so that sections do not overlap.
